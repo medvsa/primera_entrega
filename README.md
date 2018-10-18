@@ -54,7 +54,7 @@
           <div class="row">
             <div class="col-sm-8 col-md-7 py-4">
             <i class="fas fa-brain" style="color: whitesmoke"></i>
-              <h4 class="text-white" id="titulos">YO</h4>
+              <h4 class="text-white" id="titulos">yo</h4>
               <p class="text-white" id="textoslargos">Hola soy Medvsa, pero me llaman Medu. Soy estudiante de Diseño, vivo en Chile, me gusta escribir y sacar fotos. Me gustan los gatos y los pájaros. Soy fan de las papas fritas y no me gusta el helado de chocolate. </p>
             </div>
             <div class="col-sm-4 offset-md-1 py-4">
