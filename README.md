@@ -8,6 +8,29 @@
     <meta name="description" content="Portafolio de Diseño de Medusa">
     <meta name="author" content="">
     <link rel="icon" type="img/png" href="img/favicon2.png">
+      
+    <!-- Meta Tags -->
+    <!-- COMMON TAGS -->
+      <meta charset="utf-8">
+<title>MEDDVSA</title>
+<!-- Search Engine -->
+<meta name="description" content="Hola soy Medvsa, pero me llaman Medu. Soy estudiante de Diseño, vivo en Chile, me gusta escribir y sacar fotos. Me gustan los gatos y los pájaros. Soy fan de las papas fritas y no me gusta el helado de chocolate.">
+<meta name="image" content="https://scontent-scl1-1.cdninstagram.com/vp/aebaf593d9481b9661b8501b07f2117e/5C592D12/t51.2885-19/s150x150/16906976_195647707584678_1793000845801947136_a.jpg">
+<!-- Schema.org for Google -->
+<meta itemprop="name" content="MEDDVSA">
+<meta itemprop="description" content="Hola soy Medvsa, pero me llaman Medu. Soy estudiante de Diseño, vivo en Chile, me gusta escribir y sacar fotos. Me gustan los gatos y los pájaros. Soy fan de las papas fritas y no me gusta el helado de chocolate.">
+<meta itemprop="image" content="https://scontent-scl1-1.cdninstagram.com/vp/aebaf593d9481b9661b8501b07f2117e/5C592D12/t51.2885-19/s150x150/16906976_195647707584678_1793000845801947136_a.jpg">
+<!-- Twitter -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="MEDDVSA">
+<meta name="twitter:description" content="Hola soy Medvsa, pero me llaman Medu. Soy estudiante de Diseño, vivo en Chile, me gusta escribir y sacar fotos. Me gustan los gatos y los pájaros. Soy fan de las papas fritas y no me gusta el helado de chocolate.">
+<!-- Open Graph general (Facebook, Pinterest & Google+) -->
+<meta name="og:title" content="MEDDVSA">
+<meta name="og:description" content="Hola soy Medvsa, pero me llaman Medu. Soy estudiante de Diseño, vivo en Chile, me gusta escribir y sacar fotos. Me gustan los gatos y los pájaros. Soy fan de las papas fritas y no me gusta el helado de chocolate.">
+<meta name="og:image" content="https://scontent-scl1-1.cdninstagram.com/vp/aebaf593d9481b9661b8501b07f2117e/5C592D12/t51.2885-19/s150x150/16906976_195647707584678_1793000845801947136_a.jpg">
+<meta name="og:url" content="https://www.instagram.com/meddvsa/">
+<meta name="og:site_name" content="meddvsa">
+<meta name="og:type" content="website">  
 
     <title>medvsa</title>
 
