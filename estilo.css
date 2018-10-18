@@ -48,3 +48,9 @@ footer p {
 #textoslargos{
     font-family: 'Roboto Condensed', sans-serif;
 }
+.card img{filter: grayscale(1);
+    transition: all ease 1s;
+}
+.card:hover img{
+    filter:grayscale(0);
+}
