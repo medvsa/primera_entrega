@@ -18,6 +18,10 @@
     <link href="estilo.css" rel="stylesheet">}
       
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+      
+    <style> @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');</style> 
+      <style> @import url('https://fonts.googleapis.com/css?family=Anton');</style>
+      
   </head>
 
   <body>
@@ -27,29 +31,29 @@
         <div class="container">
           <div class="row">
             <div class="col-sm-8 col-md-7 py-4">
-            <i class="fas fa-brain" style="color: white"></i>
-              <h4 class="text-white">yo</h4>
-              <p class="text-muted">Hola soy medvsa, me llaman medu. Soy estudiante de Diseño, vivo en Chile y no me gusta el helado de chocolate </p>
+            <i class="fas fa-brain" style="color: whitesmoke"></i>
+              <h4 class="text-white" id="titulos">YO</h4>
+              <p class="text-white" id="textoslargos">Hola soy Medvsa, pero me llaman Medu. Soy estudiante de Diseño, vivo en Chile, me gusta escribir y sacar fotos. Me gustan los gatos y los pájaros. Soy fan de las papas fritas y no me gusta el helado de chocolate. </p>
             </div>
             <div class="col-sm-4 offset-md-1 py-4">
-              <h4 class="text-white">Contact</h4>
+              <h4 class="text-white" id="titulos">contáctame</h4>
               <ul class="list-unstyled">
-                <li><i class="fab fa-instagram pr-2" style="color: ghostwhite"></i><a href="https://www.instagram.com/meddvsa/" class="text-white">instagram</a></li>
-                <li><i class="fab fa-facebook-square pr-2" style="color: ghostwhite"></i><a href="https://www.facebook.com/cocodrilovoladorenunaptineta?ref=bookmarks" class="text-white">facebook</a></li>
-                <li><i class="fab fa-tumblr-square pr-2" style="color: ghostwhite"></i><a href="https://meddvsas.tumblr.com/" class="text-white">tumblr</a></li>
+                <li><i class="fab fa-instagram pr-2" style="color: white"></i><a href="https://www.instagram.com/meddvsa/" class="text-white">instagram</a></li>
+                <li><i class="fab fa-tumblr-square pr-2" style="color: white"></i><a href="https://meddvsas.tumblr.com/" class="text-white">tumblr</a></li>
+                <li><i class="fab fa-github pr-2" style="color: white"></i><a href="https://github.com/medvsa/" class="text-white">github</a></li>
+                
               </ul>
             </div>
           </div>
         </div>
       </div>
-      <div class="navbar shadow-sm" style="background-color: black">
+      <div class="navbar shadow-sm" style="background-color: #444444">
         <div class="container d-flex justify-content-between">
           <a href="#" class="navbar-brand d-flex align-items-center">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg>
-            <strong>Album</strong>
+            <strong style=" color: white" id="textoslargos">MEDV</strong> 
           </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation" style="background-color: antiquewhite">
-            <span class="navbar-toggler-icon"></span>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation" >
+            <i class="fas fa-kiwi-bird" style="color: white"></i>
           </button>
         </div>
       </div>
@@ -57,62 +61,59 @@
 
     <main role="main">
 
-      <section class="jumbotron text-center">
+      <section class="jumbotron text-center" id="landing">
         <div class="container">
-          <h1 class="jumbotron-heading">Album example</h1>
-          <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don't simply skip over it entirely.</p>
-          <p>
-            <a href="#" class="btn btn-primary my-2">Main call to action</a>
-            <a href="#" class="btn btn-secondary my-2">Secondary action</a>
-          </p>
+          <h1 class="jumbotron-heading" style="color: white" id="titulos">Portafolio</h1>
+          <p class="lead text-muted" style="color: white" id="textoslargos">Me dedico a la fotografía y aquí podrás encontrar parte de lo que he trabajado durante mi carrera.</p>
+         
         </div>
       </section>
 
-      <div class="album py-5 bg-light">
+      <div class="album py-5 " style="background-color: black" id="textoslargos">
         <div class="container">
 
           <div class="row">
             <div class="col-md-4">
               <div class="card mb-4 shadow-sm">
-                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+                <img class="card-img-top" src="img/medvportafolio1.jpg" alt="Card image cap">
                 <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text">Aedificium. Es parte de un proyecto fotográfico sobre colecciones de distintos elementos urbanos que encontramos en la ciudad. Esta colección corresponde a edificios de Santiago.</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                      <button href="https://www.flickr.com/photos/meddvsa/sets/72157689923648754" type="button" class="btn btn-sm btn-outline-secondary">Más aquí</button> 
+                    
                     </div>
-                    <small class="text-muted">9 mins</small>
+                    <small class="text-muted">12.11.17</small>
                   </div>
                 </div>
               </div>
             </div>
             <div class="col-md-4">
               <div class="card mb-4 shadow-sm">
-                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+                <img class="card-img-top" src="img/medvportafolio2.jpg" alt="Card image cap">
                 <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text">Lümina. Es parte de un proyecto fotográfico sobre colecciones de distintos elementos urbanos que encontramos en la ciudad. Esta colección corresponde a carteles luminosos de Santiago.</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Más aquí</button>
+                      
                     </div>
-                    <small class="text-muted">9 mins</small>
+                    <small class="text-muted">12.11.17</small>
                   </div>
                 </div>
               </div>
             </div>
             <div class="col-md-4">
               <div class="card mb-4 shadow-sm">
-                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+                <img class="card-img-top" src="img/medvportafolio3.jpg" alt="Card image cap">
                 <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text">Ornamentum. Es parte de un proyecto fotográfico sobre colecciones de distintos elementos urbanos que encontramos en la ciudad. Esta colección corresponde a ornamentos en edificaciones de Santiago.</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Más aquí</button>
+                      
                     </div>
-                    <small class="text-muted">9 mins</small>
+                    <small class="text-muted">12.11.17</small>
                   </div>
                 </div>
               </div>
@@ -120,95 +121,51 @@
 
             <div class="col-md-4">
               <div class="card mb-4 shadow-sm">
-                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+                <img class="card-img-top" src="img/medvportafolio4.jpg" alt="Card image cap">
                 <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text">tabú. Corresponde a un proyecto fotográfico de cuerpos femeninos desnudos proyectados con encajes a modo de protesta sobre el tabú existente en el cuerpo desnudo.</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Más aquí</button>
+                      
                     </div>
-                    <small class="text-muted">9 mins</small>
+                    <small class="text-muted">20.06.18</small>
                   </div>
                 </div>
               </div>
             </div>
             <div class="col-md-4">
               <div class="card mb-4 shadow-sm">
-                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+                <img class="card-img-top" src="img/medvportafolio5.jpg" alt="Card image cap">
                 <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text">05. Es parte de un proyecto experimental fotográfico con "Goma Bicromatada"</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Más aquí</button>
+                        
                     </div>
-                    <small class="text-muted">9 mins</small>
+                    <small class="text-muted">13.05.18</small>
                   </div>
                 </div>
               </div>
             </div>
             <div class="col-md-4">
               <div class="card mb-4 shadow-sm">
-                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+                <img class="card-img-top" src="img/medvportafolio6.jpg" alt="Card image cap">
                 <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text">Topi y Fanta. Ejercicio fotográfico para electivo de carrera Foto Estudio.</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Más aquí</button>
+                        
                     </div>
-                    <small class="text-muted">9 mins</small>
+                    <small class="text-muted">11.10.18</small>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class="col-md-4">
-              <div class="card mb-4 shadow-sm">
-                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
-                <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                    </div>
-                    <small class="text-muted">9 mins</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="card mb-4 shadow-sm">
-                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
-                <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                    </div>
-                    <small class="text-muted">9 mins</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="card mb-4 shadow-sm">
-                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
-                <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                    </div>
-                    <small class="text-muted">9 mins</small>
-                  </div>
-                </div>
-              </div>
-            </div>
+           
           </div>
         </div>
       </div>
