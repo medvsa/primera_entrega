@@ -80,7 +80,7 @@
                   <p class="card-text">Aedificium. Es parte de un proyecto fotográfico sobre colecciones de distintos elementos urbanos que encontramos en la ciudad. Esta colección corresponde a edificios de Santiago.</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button href="https://www.flickr.com/photos/meddvsa/sets/72157689923648754" type="button" class="btn btn-sm btn-outline-secondary">Más aquí</button> 
+                      <a href="https://www.flickr.com/photos/meddvsa/sets/72157689923648754" class="text-dark">Más aquí</a>
                     
                     </div>
                     <small class="text-muted">12.11.17</small>
@@ -95,7 +95,7 @@
                   <p class="card-text">Lümina. Es parte de un proyecto fotográfico sobre colecciones de distintos elementos urbanos que encontramos en la ciudad. Esta colección corresponde a carteles luminosos de Santiago.</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Más aquí</button>
+                      <a href="https://www.flickr.com/photos/meddvsa/sets/72157689175717511" class="text-dark">Más aquí</a>
                       
                     </div>
                     <small class="text-muted">12.11.17</small>
@@ -110,7 +110,7 @@
                   <p class="card-text">Ornamentum. Es parte de un proyecto fotográfico sobre colecciones de distintos elementos urbanos que encontramos en la ciudad. Esta colección corresponde a ornamentos en edificaciones de Santiago.</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Más aquí</button>
+                      <a href="https://www.flickr.com/photos/meddvsa/sets/72157690619216645" class="text-dark">Más aquí</a>
                       
                     </div>
                     <small class="text-muted">12.11.17</small>
@@ -126,7 +126,7 @@
                   <p class="card-text">tabú. Corresponde a un proyecto fotográfico de cuerpos femeninos desnudos proyectados con encajes a modo de protesta sobre el tabú existente en el cuerpo desnudo.</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Más aquí</button>
+                
                       
                     </div>
                     <small class="text-muted">20.06.18</small>
@@ -141,8 +141,8 @@
                   <p class="card-text">05. Es parte de un proyecto experimental fotográfico con "Goma Bicromatada"</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Más aquí</button>
-                        
+                      <a href="https://meddvsas.tumblr.com/" class="text-dark">Más aquí</a>
+                       
                     </div>
                     <small class="text-muted">13.05.18</small>
                   </div>
@@ -156,7 +156,7 @@
                   <p class="card-text">Topi y Fanta. Ejercicio fotográfico para electivo de carrera Foto Estudio.</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Más aquí</button>
+                      
                         
                     </div>
                     <small class="text-muted">11.10.18</small>
